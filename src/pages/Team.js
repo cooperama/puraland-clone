@@ -37,20 +37,16 @@ export default function Team() {
           <img src="https://unsplash.it/400" alt="solutions" />
         </div>
         <div className="solutions-info">
-          <div className="solutions-text">
-            <p className="solutions-title">
-              Innovative solutions to booset your creative{" "}
-              <span>projects.</span>
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-              dicta, eius, unde, incidunt consectetur omnis dolores voluptates
-              suscipit natus saepe dolore possimus animi distinctio iusto
-              consequatur eum placeat! Vitae consequatur pariatur inventore
-              saepe?
-            </p>
-            <Button text="Button Text" />
-          </div>
+          <p className="solutions-title">
+            Innovative solutions to booset your creative <span>projects.</span>
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
+            dicta, eius, unde, incidunt consectetur omnis dolores voluptates
+            suscipit natus saepe dolore possimus animi distinctio iusto
+            consequatur eum placeat! Vitae consequatur pariatur inventore saepe?
+          </p>
+          <Button text="Button Text" />
         </div>
       </div>
     </div>

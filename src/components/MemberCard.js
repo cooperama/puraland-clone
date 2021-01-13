@@ -1,11 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  FacebookF,
-  Google,
-  Twitter,
-  faCoffee,
-} from "@fortawesome/free-solid-svg-icons";
+import { faBook, faSearch, faCrow } from "@fortawesome/free-solid-svg-icons";
 
 export default function MemberCard({
   image,
@@ -24,10 +19,9 @@ export default function MemberCard({
         <p className="member-name">{member}</p>
         <p className="member-role">{role}</p>
         <div className="member-contacts">
-          <FontAwesomeIcon icon={FacebookF} />
-          <FontAwesomeIcon icon={Google} />
-          <FontAwesomeIcon icon={Twitter} />
-          <FontAwesomeIcon icon={faCoffee} />
+          <FontAwesomeIcon icon={faBook} />
+          <FontAwesomeIcon icon={faSearch} />
+          <FontAwesomeIcon icon={faCrow} />
         </div>
       </div>
     </div>
