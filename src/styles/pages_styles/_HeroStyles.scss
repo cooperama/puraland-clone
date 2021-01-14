@@ -1,3 +1,31 @@
 #hero-container {
-  margin-top: $navbar-height;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("http://unsplash.it/400");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  .hero-content {
+    .hero-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 70%;
+      margin: auto;
+
+      h1 {
+        margin-bottom: 20px;
+      }
+
+      h3 {
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+    }
+  }
 }

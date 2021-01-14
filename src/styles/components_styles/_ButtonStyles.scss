@@ -1,0 +1,17 @@
+button {
+  display: block;
+  margin: auto;
+  background-color: $gradient;
+  background-color: rgb(207, 85, 105);
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: all 0.1s ease;
+
+  &:hover {
+    background-color: rgb(243, 148, 54);
+    transition: all 0.1s ease;
+  }
+}
