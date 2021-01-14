@@ -4,7 +4,7 @@ import Button from "../components/Button";
 
 export default function Team() {
   return (
-    <div className="team-container">
+    <div id="team-container">
       <h4>Our team.</h4>
       <div className="member-cards-container">
         <MemberCard

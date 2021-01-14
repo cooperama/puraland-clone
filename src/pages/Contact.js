@@ -10,7 +10,7 @@ import {
 
 export default function Contact() {
   return (
-    <div className="contact-container">
+    <div id="contact-container">
       <div className="contact-pura">
         <h5>
           <span>Pura</span> Agency.
@@ -27,16 +27,18 @@ export default function Contact() {
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, harum.
         </p>
-        <p>
-          <FontAwesomeIcon icon={faEnvelope} /> support@gmail.com
-        </p>
-        <p>
-          <FontAwesomeIcon icon={faPhone} /> +001-123-456-7890
-        </p>
-        <div className="contact-link">
-          <FontAwesomeIcon icon={faBook} />
-          <FontAwesomeIcon icon={faSearch} />
-          <FontAwesomeIcon icon={faCrow} />
+        <div className="contact-details">
+          <p className="contact-info">
+            <FontAwesomeIcon icon={faEnvelope} /> support@gmail.com
+          </p>
+          <p className="contact-info">
+            <FontAwesomeIcon icon={faPhone} /> +001-123-456-7890
+          </p>
+          <div className="contact-link">
+            <FontAwesomeIcon icon={faBook} />
+            <FontAwesomeIcon icon={faSearch} />
+            <FontAwesomeIcon icon={faCrow} />
+          </div>
         </div>
       </div>
     </div>

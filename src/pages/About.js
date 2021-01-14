@@ -11,7 +11,7 @@ export default function About() {
     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque quas eligendi nemo molestias culpa.";
 
   return (
-    <div className="about-container">
+    <div id="about-container">
       <div className="about-us">
         <h4>About us.</h4>
         <p>

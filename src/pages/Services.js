@@ -17,7 +17,7 @@ export default function Services() {
   const more =
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, nobis esse. Obcaecati, nostrum iusto exercitationem iure ad rerum! Non sed debitis veniam delectus autem. Consequatur eligendi beatae tempora neque?";
   return (
-    <div className="services-container">
+    <div id="services-container">
       <div className="services-info">
         <h5>
           Suite of features that make Pura one of the best agencies of{" "}
