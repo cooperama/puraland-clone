@@ -1,2 +1,16 @@
+// Import
+@import "./pages_styles/_AboutStyles";
+@import "./pages_styles/_ContactStyles";
+@import "./pages_styles/_HeroStyles";
+@import "./pages_styles/_ServicesStyles";
+@import "./pages_styles/_TeamStyles";
+@import "./components_styles/_AboutCard";
+@import "./components_styles/_AlertStyles";
+@import "./components_styles/_ButtonStyles";
+@import "./components_styles/_FooterStyles";
+@import "./components_styles/_MemberCard";
+@import "./components_styles/_NavbarStyles";
+@import "./components_styles/_ServicesCard";
+
 // Variables
 $gradient: linear-gradient(45deg, #fd3fb3, #fd3f81 31%, #fd3e4f 78%, #fd3e4f);

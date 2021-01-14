@@ -8,6 +8,8 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Alert from "./components/Alert";
 
+import "./styles/styles.scss";
+
 function App() {
   return (
     <div className="App">
