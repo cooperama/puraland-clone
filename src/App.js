@@ -6,6 +6,7 @@ import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Alert from "./components/Alert";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Services />
       <Contact />
       <Footer />
+      <Alert />
     </div>
   );
 }
