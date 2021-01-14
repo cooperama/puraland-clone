@@ -1,0 +1,39 @@
+nav {
+  position: fixed;
+  width: 100vw;
+  height: $navbar-height;
+  top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  p {
+    color: $gradient;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .nav-links {
+    display: flex;
+    li {
+      list-style: none;
+    }
+    a {
+      padding: 0 10px;
+      text-decoration: none;
+      color: black;
+      transition: all 0.1s ease;
+
+      &:hover {
+        color: $gradient;
+        background: $gradient;
+        transition: all 0.1s ease;
+      }
+    }
+  }
+  .nav-contact {
+    svg {
+      padding: 0 5px;
+      font-size: 1.5rem;
+    }
+  }
+}
