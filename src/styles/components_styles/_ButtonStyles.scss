@@ -1,13 +1,16 @@
 button {
   display: block;
   margin: auto;
-  background-color: $gradient;
-  background-color: rgb(207, 85, 105);
+  background: $gradient;
+  background-clip: border-box;
+  background: -webkit-linear-gradient($gradient);
+  -webkit-background-clip: border-box;
   border: none;
   outline: none;
   color: white;
+  font-size: 1.5rem;
   font-weight: bold;
-  padding: 8px 16px;
+  padding: 25px 50px;
   transition: all 0.1s ease;
 
   &:hover {

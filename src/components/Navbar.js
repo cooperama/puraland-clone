@@ -24,9 +24,9 @@ export default function Navbar() {
         </li>
       </div>
       <div className="nav-contact">
-        <FontAwesomeIcon icon={faBook} />
-        <FontAwesomeIcon icon={faSearch} />
-        <FontAwesomeIcon icon={faCrow} />
+        <span><FontAwesomeIcon icon={faBook} /></span>
+        <span><FontAwesomeIcon icon={faSearch} /></span>
+        <span><FontAwesomeIcon icon={faCrow} /></span>
       </div>
     </nav>
   );
