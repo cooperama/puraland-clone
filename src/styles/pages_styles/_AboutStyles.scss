@@ -1,0 +1,15 @@
+#about-container {
+  @include background-gradient;
+  height: 100vh;
+  .about-us {
+    color: white;
+    padding: 50px 100px;
+    h4 {
+      font-size: 4rem;
+      margin-bottom: 4rem;
+    }
+    p {
+      font-size: 3rem;
+    }
+  }
+}

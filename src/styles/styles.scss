@@ -10,6 +10,12 @@ $navbar-height: 80px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@mixin background-gradient {
+  background: $gradient;
+  background-clip: border-box;
+  background: -webkit-linear-gradient($gradient);
+  -webkit-background-clip: border-box;
+}
 
 
 // Resets
